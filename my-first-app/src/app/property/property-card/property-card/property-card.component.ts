@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { PropertyListComponent } from '../../property-list/property-list.component';
+import { IPropertyBase } from '../../../model/IPropertyBase';
 
 @Component({
   selector: 'app-property-card',
@@ -7,6 +7,7 @@ import { PropertyListComponent } from '../../property-list/property-list.compone
   styleUrl: './property-card.component.css'
 })
 export class PropertyCardComponent {
-  @Input() property:any
+  @Input() property: IPropertyBase;
+  @Input() hideIcons: boolean;
 
 }

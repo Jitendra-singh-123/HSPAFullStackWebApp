@@ -1,0 +1,16 @@
+.card-body h1{
+    color: #006d90;
+}
+.card img{
+    padding: 10px;
+    height: 250px;
+}
+
+.card{
+    min-height: 600px;
+}
+.card-img-wrapper{
+    height: 250px;
+}
+
+.ngx-gallery { display: inline-block; margin-bottom: 20px; }
